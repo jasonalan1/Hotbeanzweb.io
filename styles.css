@@ -1,0 +1,237 @@
+.containerA {
+  display: grid;
+  width: 100%;
+  height: 600px;
+  grid-template-columns: 1fr 1fr 200px;
+  grid-template-rows: 235px 1fr 1fr 100px;
+  grid-gap: 1rem;
+  grid-template-areas:
+      "header header header"
+      "content-1 content-1 content-1"
+      " content-2 content-3 content-3"
+      "footer footer footer";
+}
+.container2 {
+  display: grid;
+  width: 100%;
+  height: 600px;
+  grid-template-columns: 200px 1fr 1fr;
+   grid-template-rows: 235px 1fr 1fr 100px;
+  grid-gap: 1rem;
+  grid-template-areas:
+      "header header header"
+      "content-1 content-1 content-1"
+      "content-2 content-2 content-2"
+      "footer footer footer";
+}
+.container3 {
+  display: grid;
+  width: 100%;
+  height: 600px;
+  grid-template-columns: 200px 1fr 1fr;
+   grid-template-rows: 235px 1fr 1fr 100px;
+  grid-gap: 1rem;
+  grid-template-areas:
+      "header header header"
+      "content-1 content-1 content-1"
+      "content-2 content-2 content-2"
+      "footer footer footer";
+}
+.container4 {
+  display: grid;
+  width: 100%;
+  height: 600px;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: 235px 1fr 1fr 100px;
+  grid-gap: 1rem;
+  grid-template-areas:
+      "header header header"
+      "sidebar content-1 content-1"
+      "sidebar content-2 content-3"
+      "footer footer footer";
+}
+.container5 {
+  display: grid;
+  width: 100%;
+  height: 600px;
+  grid-template-columns: 200px 1fr 1fr;
+   grid-template-rows: 235px 1fr 1fr 100px;
+  grid-gap: 1rem;
+  grid-template-areas:
+      "header header header"
+      "sidebar content-1 content-3"
+      "sidebar content-2 content-3"
+      "footer footer footer";
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: slategrey;
+  font-family: "lato", sans-serif;
+}
+.container > * {
+  border: 1px solid black;
+}
+
+.header {
+  grid-area: header;
+background:url("images/header.jpg");
+   background-size:cover;
+  color:buttonshadow;
+  position:relative;
+  left:0px;
+  
+}
+.title{
+    position:relative;
+    left:850px;
+    top:-60px;
+}
+.sidebar {
+    text-align: center;
+    grid-area: sidebar;
+     background:url("header.jpg");
+   background-size:cover;
+  color:white;
+  position:relative;
+  left:0px;
+}
+
+.content-1 {
+  grid-area: content-1;
+}
+
+.content-2 {
+  grid-area: content-2;
+}
+
+.content-3 {
+  grid-area: content-3;
+}
+
+.footer {
+  grid-area: footer;
+ 
+  background:url("images/header.jpg");
+   background-size:cover;
+  color:white;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: -15px 2px;
+  border-radius: 50%;
+  position:relative;
+  left:1520px;
+  
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.webImg{
+   position:relative;
+  left:200px;
+}
+.imgPhone{
+      position:relative;
+  left:800px;   
+}
+video{
+     position:relative;
+  left:350px;   
+}
+
+.leo{
+    position:relative;
+  left:800px;
+  border:7px solid grey;
+  border-radius:20px;
+}
+.img2{
+  position:relative;
+  left:350px; 
+   border:7px solid grey;
+  border-radius:20px;
+  position: relative;
+  top:-20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.w3-bar-item w3-button w3-green{
+   position:relative;
+   top:-75px;
+}
+.webimg2{
+   position:relative;
+     top:200px;
+     left:150px;
+     width: 500px;
+}
+form{
+    border-radius: 5px;
+  background-color:activecaption;
+  padding: 20px;
+    
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
